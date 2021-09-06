@@ -29,9 +29,11 @@ A list of open-source projects for radio links with UAVs.
   - OSD overlay
   - INAV only
 - [SoftRF](https://github.com/lyusupov/SoftRF)
-  - FLARM - WiFi bridge
-  - Capable of interoperation with other networks
-  - Can feed to an ADS-B compatible flight firmware (ArduPilot, etc)
+  - Bridges proximity radio network to WiFi
+    - One or more of FLARM, OGN, PilotAware, Skytraxx
+  - Can feed to an ADS-B compatible flight controller
+    - Project not primarially targeting UAVs
+  
 
 
 ## Generic Serial Link
