@@ -2,6 +2,7 @@
 
 A list of open-source projects for radio links with UAVs.
 
+## Multipurpose Link
 - [DroneBridge](https://github.com/DroneBridge/DroneBridge)
   - "One link to rule them all"
     - Telemetry: Bidirectional MAVLink, LTM depreciated
@@ -13,7 +14,6 @@ A list of open-source projects for radio links with UAVs.
   - Hardware:
     - RPi to RPi
     - Single ESP32 (no video). Web interface.
-
 - [OpenHD](https://github.com/OpenHD/Open.HD)
   - Multifunction link
     - Telemetry: Bidirectional MAVLink (uplink dependent on FC support)
@@ -22,11 +22,27 @@ A list of open-source projects for radio links with UAVs.
   - RPi to RPi
   - Multiband, diversity support
 
+## Proximity Beacon
 
-- Legacy Projects
-  - [openLRSng](https://github.com/openLRSng/openLRSng)
-    - Last commit Nov 2018. Recommended hardware is domain squatter.
-  - [MavESP8266](https://github.com/dogmaphobic/mavesp8266)
+- [iNavRadar](https://github.com/mistyk/inavradar-ESP32)
+  - LoRa + ESP32 location broadcast/recieving
+  - OSD overlay
+  - INAV only
+- [SoftRF](https://github.com/lyusupov/SoftRF)
+  - FLARM - WiFi bridge
+  - Capable of interoperation with other networks
+  - Can feed to an ADS-B compatible flight firmware (ArduPilot, etc)
+
+
+## Generic Serial Link
+- [ESP32 Serial Bridge](https://github.com/AlphaLima/ESP32-Serial-Bridge)
+  - TCP over WiFi to all 3 serials.
+- [MavESP8266](https://github.com/dogmaphobic/mavesp8266)
     - Serial link over WiFi with single ESP8266.
     - Web interface.
     - Last commit May 2020.
+
+## Legacy Projects
+  - [openLRSng](https://github.com/openLRSng/openLRSng)
+    - Last commit Nov 2018. Recommended hardware is domain squatter.
+  
